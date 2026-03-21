@@ -7,7 +7,7 @@
     <title>Page 3</title>
     <script type="module" crossorigin src="/goit-js-hw-09/2-form.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-B5Qt9EMX.js">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-Cmqm-9Sy.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-D8CgpPaS.css">
   </head>
   <body>
  
@@ -17,18 +17,19 @@
         <h1 class="main-title">
           Form
         </h1>
+        <form class="feedback-form" autocomplete="off">
+          <label class="form-label">
+            Email
+            <input type="email" name="email" autofocus class="form-input" placeholder="Type area" />
+          </label>
+          <label class="form-label">
+            Message
+            <textarea name="message" rows="8" class="textarea-form"></textarea>
+          </label>
+          <button class="form-button" type="submit">Submit</button>
+        </form>
       </div>
-      <form class="feedback-form" autocomplete="off">
-        <label>
-          Email
-          <input type="email" name="email" autofocus class="form-input" />
-        </label>
-        <label>
-          Message
-          <textarea name="message" rows="8"></textarea>
-        </label>
-        <button class="form-button" type="submit">Submit</button>
-      </form>
+      
     </main>
 
   </body>
